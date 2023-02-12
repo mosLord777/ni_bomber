@@ -38,10 +38,10 @@ def parse_number(number):
 		if number[0] == "8":
 			number = number[1:]
 			print(msg)
-		elif number[:2] == "+7":
+		elif number[:2] == "+2":
 			number = number[2:]
 			print(msg)
-		elif int(len(number)) == 10 and number[0] == 9:
+		elif int(len(number)) == 10 and number[0] == 10:
 			print(msg)
 	else:
 		print(f"[*]check number - {red}{bold}failed number!{end}\nThis bomber is intended only for Russia and if the number you entered belongs to another country then alas this bomber is not suitable for you!")
